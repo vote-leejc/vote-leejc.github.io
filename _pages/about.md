@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: 세계가 주목하는 서울대학교 공과대학 <b>성과</b>로 증명하겠습니다. 
 
 profile:
   align: right
