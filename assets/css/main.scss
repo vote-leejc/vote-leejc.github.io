@@ -37,3 +37,18 @@
 @use "font-awesome/brands";
 @use "font-awesome/solid";
 @use "font-awesome/regular";
+
+/* 한글 가독성 강화 설정 */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500;700&display=swap');
+
+body {
+  font-family: "Noto Sans KR", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif !important;
+  line-height: 1.7 !important; /* 줄 간격을 넓혀서 눈이 편하게 함 */
+  letter-spacing: -0.02em !important; /* 글자 사이 간격을 조절해 가독성 향상 */
+  word-break: keep-all !important; /* 한글 단어가 중간에 잘리지 않게 함 */
+}
+
+h1, h2, h3, h4, .navbar-brand, .nav-link {
+  font-family: "Noto Sans KR", sans-serif !important;
+  font-weight: 700 !important; /* 제목은 굵게 처리해서 강조 */
+}
